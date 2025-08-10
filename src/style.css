@@ -741,3 +741,87 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* --------- */
+/* UIUX*/
+/* --------- */
+uiux-section {
+  padding-top: 140px !important; 
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.uiux-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  
+}
+
+/* ===== General page section (optional) ===== */
+.graphic-section {
+  --bg: #0f0b1a;
+  --card: #18132a;
+  --text: #eee9ff;
+  --muted: #c8c2de;
+  --accent: #a855f7;
+  --border: rgba(168, 85, 247, 0.35);
+  --border-hover: rgba(168, 85, 247, 0.6);
+  --radius: 16px;
+  --shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+
+  color: var(--text);
+  background: transparent; /* your page bg already set elsewhere */
+}
+
+/* Graphic Design Section */
+.graphic-design-section {
+  padding: 100px 20px;
+  background: var(--section-background-color);
+}
+
+/* Card wrapper */
+.graphic-design-card {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+  background-color: transparent; /* No black background */
+  border-radius: 12px;
+  color: white;
+  transition: all 0.4s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graphic-design-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+}
+
+/* Image */
+.graphic-design-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding: 0; /* No extra space */
+  opacity: 1; /* Full opacity */
+}
+
+/* Card content */
+.graphic-design-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.graphic-design-card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.graphic-design-card-content p {
+  font-size: 1rem;
+  color: #ccc;
+}

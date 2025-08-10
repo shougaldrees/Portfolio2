@@ -19,37 +19,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a <span className="purple">UI/UX designer, web developer, and graphic designer </span> who’s passionate about crafting thoughtful, user-centered digital experiences.
               <br />
-              <br />I am fluent in classics like
+              <br />I fell in love with design and development because it lets me blend creativity with problem-solving. Whether it’s designing intuitive interfaces, building responsive web apps, or creating visual identities. 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> I love bringing ideas to life. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              I work with tools and technologies like <i>
+                <b className="purple"> Figma, React.js, Next.js, Node.js, and Adobe Creative Suite, </b>
+              </i>  and I’m always exploring new ways to create meaningful, beautiful, and functional digital products. &nbsp;
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Whenever possible, I focus on projects that make a difference, specially those at the intersection of  <i>
+                <b className="purple">design, technology, and impact.</b></i>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,30 +46,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"
@@ -93,16 +55,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
