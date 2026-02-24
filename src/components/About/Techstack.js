@@ -9,26 +9,15 @@ import {
   DiPython,
   DiGit,
   DiJava,
-  DiSwift
-  
-  
-  
+  DiSwift,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
-  SiFigma
-  
-  
- 
- 
+  SiFigma,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 import { TbBrandAdobe } from "react-icons/tb";
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
