@@ -825,3 +825,53 @@ uiux-section {
   font-size: 1rem;
   color: #ccc;
 }
+
+
+/* ===== Responsive avatar (no white corners) ===== */
+.myAvtar {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding-top: 9em !important;
+  background: transparent !important;
+}
+
+@media (max-width: 767px) {
+  .myAvtar {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
+}
+
+/* VanillaTilt wrapper */
+.myAvtar > div {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  width: min(320px, 85vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  overflow: hidden !important;
+}
+
+/* image fills the wrapper */
+.myAvtar img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  display: block !important;
+
+  border: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 18px !important;
+}
+
+@media (min-width: 992px) {
+  .myAvtar > div {
+    width: 360px;
+  }
+}
